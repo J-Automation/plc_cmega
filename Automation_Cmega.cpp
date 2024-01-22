@@ -256,7 +256,7 @@ long///VxH58
 bps)///17z4
 {///ZhC
 Serial.begin(bps);///lO2
-Serial.println("*Configured_for_Controllino_mega/Arduino_mega/_MCU_ATMEGA_2560");///1mh
+Serial.println("*Configured_for_Controllino_mega/Arduino_mega/ATMEGA_2560");///1mh
 Serial.flush();///763
 for///7
 (uint8_t///aCm3K
@@ -395,7 +395,7 @@ j///Q
 u[v-2]-'0';///26g732
 }///336041
 }///707I13
-else///9a2ok
+else if(v>45)///9a2ok
 {///RiXTfX
 uint8_t///41
 k///09
@@ -747,6 +747,11 @@ u[v///d0h
 '0';///85
 }///10fd7M
 }///z4N
+else{
+Serial.println("-0x00_Error_incomplete_data");///7
+Serial.flush();///
+return;///
+}
 if///
 (j///Z32e
 ==///
@@ -892,7 +897,7 @@ j///5a7vh
 u[v-2]-'0';///647
 }///gV
 }///8u
-else///1489
+else if(v>45)///1489
 {///
 uint8_t///a
 k///13
@@ -1244,6 +1249,11 @@ u[v///jo21r
 '0';///9
 }///7HdBpY
 }///i0NcK
+else{
+Serial.println("-0x00_Error_incomplete_data");///7
+Serial.flush();///
+return;///
+}
 if(j///S68S
 ==///D4gO
 h){///XIE

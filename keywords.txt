@@ -1,5 +1,5 @@
 #######################################
-# Syntax Coloring Map For Openaia
+# Syntax Coloring Map For Automation_Cmega
 #######################################
 
 #######################################
@@ -10,20 +10,20 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-Automation_Cmega KEYWORD1
+Automation_Cmega    KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-begin KEYWORD2
-dataTransfer KEYWORD2
-notRead KEYWORD2
-notWrite KEYWORD2
-onlyAssignOutputs KEYWORD2
-setEntryPoint KEYWORD2
-setExitPoint KEYWORD2
-setID KEYWORD2
-setConfirmation KEYWORD2
-getOutPort KEYWORD2
-getOutPinsList KEYWORD2
+begin	KEYWORD2	
+dataTransfer	KEYWORD2
+noInputs	KEYWORD2
+noOutputs	KEYWORD2
+onlyOutputsPort	KEYWORD2
+setEntryPoint	KEYWORD2
+setExitPoint	KEYWORD2
+setID	KEYWORD2
+setConfirmation	KEYWORD2
+getOutputPortValues	KEYWORD2
+getOutputPinList	KEYWORD2
